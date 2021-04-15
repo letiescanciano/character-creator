@@ -30,7 +30,9 @@ function App() {
 
   return (
     <main className={styles.characterEditor}>
-      <div className={styles.lightGrayBar}></div>
+      {/* Since now all the elements are non-static, it goes with the order of elements in the DOM */}
+      <div className={styles.lightGrayBar}></div> 
+
       <MaxWidthWrapper className={styles.maxWidthWrapper}>
         <header className={styles.header}>
           <h1 className={styles.title}>Create your Character</h1>
