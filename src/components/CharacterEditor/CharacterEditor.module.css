@@ -36,4 +36,15 @@
 
 .controlColumn {
   width: 50%;
+  position: relative;
+  z-index: 3;
+}
+
+.lightGrayBar{
+  position: fixed;
+  bottom: 0;
+  background-color: hsl(195deg, 20%, 86%);
+  width: 100%;
+  height: 45%;
+
 }
